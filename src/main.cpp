@@ -98,7 +98,7 @@ int main() {
                     */
                     double steer_value;
                     double throttle_value;
-					double dx, dy, cte, epsi;
+                    double dx, dy, cte, epsi;
                     vector<double> way_p_x;
                     vector<double> way_p_y;
                     
@@ -118,8 +118,10 @@ int main() {
                     Eigen::Map<Eigen::VectorXd> way_p_y_eigen(ptry, 6);
                     
                     auto coeffs = polyfit(way_p_x_eigen, way_p_y_eigen, 3);
-                    cte = polyeval(coeffs, 0);  // px = 0, py = 0
-                    epsi = -atan(coeffs[1]);  // p
+                    // px = 0, py = 0
+                    cte = polyeval(coeffs, 0);
+                    // p
+                    epsi = -atan(coeffs[1]);
                     
                     steer_value = j[1]["steering_angle"];
                     throttle_value = j[1]["throttle"];
