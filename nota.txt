@@ -1,0 +1,33 @@
+https://github.com/NikolasEnt/Model-Predictive-Control/blob/master/src/MPC.cpp
+https://github.com/jeremy-shannon/CarND-MPC-Project/tree/master/src
+https://github.com/thomasantony/CarND-P10-MPC/blob/eadd6c2c5041f0082e3030c3fbcff0153210ae69/src/MPC.cpp
+
+"Una persona inteligente resuelve un problema, un sabio lo evita". 
+"Coloca tu mano sobre una cacerola caliente por un minuto y parecerá una hora. Siéntate junto a una chica linda por una hora y parecerá un minuto. Eso es relatividad".
+"No trates de convertirte en un hombre de éxitos, trata de ser un hombre de valor".
+"La imaginación es más importante que el conocimiento. Porque el conocimiento es limitado, mientras que la imaginación abarca el mundo entero, estimulando el progreso, dando nacimiento a la evolución".
+"La ciencia sin religión es coja, la religión sin ciencia es ciega".
+"Yo no sé con qué armas se luchará la III guerra mundial, pero la IV guerra mundial se peleará con palos y piedras".
+"Solo dos cosas son infinitas: el universo y la estupidez humana; y no estoy muy seguro de la primera".
+"Nadie puede leer los Evangelios sin sentir la presencia de Jesús. Su personalidad palpita en cada palabra. Ningún mito está tan lleno de tal vida".
+"Vivo en esa soledad que es dolorosa en la juventud, pero deliciosa en los años de madurez".
+"Mi ideal político es la democracia. Que cada hombre sea respetado como individuo y ningún hombre idolatrado".
+"Pocas personas son capaces de expresar con equanimidad opiniones que difieren de los prejuicios de su entorno social. La mayoría de las personas son aún incapaces de formar tales opiniones".
+"Nunca hagas algo que va en contra de tu consciencia, aún cuando el Estado te lo pida".
+"Los grandes maestros morales de la humanidad eran, en cierto modo, genios artísticos en el arte de vivir".
+"Es importante entender que incluso en la teoría el pago del trabajador no está determinado por el valor de su producto".
+"En cuanto a las leyes de las matemáticas se refieren a la realidad, no son ciertas; y en la medida en que están seguros, no se refieren a la realidad".
+"Mi sentido apasionado de justicia y responsabilidad social siempre ha contrastado extrañamente con mi marcada falta de necesidad de contacto directo con otros seres y comunidades humanas".
+"El verdadero valor de un ser humano está determinado primordialmente por la medida y el sentido en que ha alcanzado la liberación del yo".
+"Una razón por la que la matemática goza de especial estima, sobre todas las demás ciencias, es que sus leyes son absolutamente ciertas e indiscutibles, mientras que las de otras ciencias son en cierta medida discutibles y en constante peligro de ser derrocadas por hechos recién descubiertos".
+"Cuando era niño, recibí instrucción tanto de la Biblia como del Talmud. Soy judío, pero estoy cautivado por la figura luminosa del Nazareno".
+"La idea de lograr la seguridad mediante el armamento nacional es en el estado actual de la técnica militar, una ilusión desastrosa".
+"Sostengo que el sentimiento religioso cósmico es el motivo más fuerte y noble para la investigación científica".
+"Lo realmente valioso en el concurso de la vida humana me parece no el Estado, sino el creativo, el individuo sensible, la personalidad; ella sola crea lo noble y lo sublime, mientras que la manada como tal permanece embotada en el pensamiento y embotada en sentimientos".
+"Todo lo que la raza humana ha hecho y pensado se refiere a la satisfacción de las necesidades profundamente sentidas y a la asimilación del dolor. Uno tiene que mantener esto constantemente en mente si uno desea entender los movimientos espirituales y su desarrollo. El sentimiento y el anhelo son la fuerza motriz detrás de todos los esfuerzos humanos y la creación humana, en un aspecto exaltado que estos últimos puedan presentarnos".
+"Estoy convencido de que sólo hay una forma de eliminar estos graves males, a saber, mediante el establecimiento de una economía socialista, acompañada de un sistema educativo orientado hacia objetivos sociales".
+"Por lo tanto, la ciencia se ha encargado de socavar la moral, pero la acusación es injusta. La conducta ética de un hombre debe basarse eficazmente en la simpatía, la educación y los lazos y necesidades sociales; ninguna base religiosa es necesaria. De hecho, el hombre estaría mal si tuviera que ser frenado por el temor al castigo y las esperanzas de recompensa después de la muerte".
+"Para el esfuerzo científico es un todo natural cuyas partes se apoyan mutuamente de una manera que sin duda, nadie puede anticipar".
+"Incluso en las ocasiones más solemnes me fui sin usar calcetines y escondí esa falta de civilización en botas altas".
+"El estado de ánimo que permite al hombre hacer una obra es similar al del adorador religioso o del amante; el esfuerzo diario proviene de una intención o programa intencionado, pero directamente del corazón".
+"El sentimiento religioso del científico adopta la forma de un asombro extasiado ante la armonía de la ley natura que revela una inteligencia de tal superioridad que, comparada con ella, todo pensamiento sistemático y actuación de los seres humanos es una reflexión absolutamente insignificante".
