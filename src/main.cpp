@@ -98,14 +98,14 @@ int main() {
                     */
                     double steer_value;
                     double throttle_value;
-                    double dx, dy, cte, epsi;
+					double dx, dy, cte, epsi;
                     vector<double> way_p_x;
                     vector<double> way_p_y;
                     
                     // transform waypoints to be from car's perspective
                     // this means we can consider px = 0, py = 0, and psi = 0
                     // greatly simplifying future calculations
-                    for (int i = 0; i < ptsx.size(); i++) {
+                    for (unsigned int i = 0; i < ptsx.size(); i++) {
                         dx = ptsx[i] - px;
                         dy = ptsy[i] - py;
                         way_p_x.push_back(dx * cos(-psi) - dy * sin(-psi));
@@ -118,10 +118,8 @@ int main() {
                     Eigen::Map<Eigen::VectorXd> way_p_y_eigen(ptry, 6);
                     
                     auto coeffs = polyfit(way_p_x_eigen, way_p_y_eigen, 3);
-                    // px = 0, py = 0
-                    cte = polyeval(coeffs, 0);
-                    // p
-                    epsi = -atan(coeffs[1]);
+                    cte = polyeval(coeffs, 0);  // px = 0, py = 0
+                    epsi = -atan(coeffs[1]);  // p
                     
                     steer_value = j[1]["steering_angle"];
                     throttle_value = j[1]["throttle"];
@@ -146,7 +144,7 @@ int main() {
                     //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
                     // the points in the simulator are connected by a Green line
                     
-                    for (int i = 2; i < vars.size(); i++) {
+                    for (unsigned int i = 2; i < vars.size(); i++) {
                         if (i%2 == 0) {
                             mpc_x_vals.push_back(vars[i]);
                         } else {
