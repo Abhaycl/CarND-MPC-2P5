@@ -1,0 +1,33 @@
+﻿https://github.com/NikolasEnt/Model-Predictive-Control/blob/master/src/MPC.cpp
+https://github.com/jeremy-shannon/CarND-MPC-Project/tree/master/src
+https://github.com/thomasantony/CarND-P10-MPC/blob/eadd6c2c5041f0082e3030c3fbcff0153210ae69/src/MPC.cpp
+
+"Una persona inteligente resuelve un problema, un sabio lo evita". 
+"Coloca tu mano sobre una cacerola caliente por un minuto y parecer� una hora. Si�ntate junto a una chica linda por una hora y parecer� un minuto. Eso es relatividad".
+"No trates de convertirte en un hombre de �xitos, trata de ser un hombre de valor".
+"La imaginaci�n es m�s importante que el conocimiento. Porque el conocimiento es limitado, mientras que la imaginaci�n abarca el mundo entero, estimulando el progreso, dando nacimiento a la evoluci�n".
+"La ciencia sin religi�n es coja, la religi�n sin ciencia es ciega".
+"Yo no s� con qu� armas se luchar� la III guerra mundial, pero la IV guerra mundial se pelear� con palos y piedras".
+"Solo dos cosas son infinitas: el universo y la estupidez humana; y no estoy muy seguro de la primera".
+"Nadie puede leer los Evangelios sin sentir la presencia de Jes�s. Su personalidad palpita en cada palabra. Ning�n mito est� tan lleno de tal vida".
+"Vivo en esa soledad que es dolorosa en la juventud, pero deliciosa en los a�os de madurez".
+"Mi ideal pol�tico es la democracia. Que cada hombre sea respetado como individuo y ning�n hombre idolatrado".
+"Pocas personas son capaces de expresar con equanimidad opiniones que difieren de los prejuicios de su entorno social. La mayor�a de las personas son a�n incapaces de formar tales opiniones".
+"Nunca hagas algo que va en contra de tu consciencia, a�n cuando el Estado te lo pida".
+"Los grandes maestros morales de la humanidad eran, en cierto modo, genios art�sticos en el arte de vivir".
+"Es importante entender que incluso en la teor�a el pago del trabajador no est� determinado por el valor de su producto".
+"En cuanto a las leyes de las matem�ticas se refieren a la realidad, no son ciertas; y en la medida en que est�n seguros, no se refieren a la realidad".
+"Mi sentido apasionado de justicia y responsabilidad social siempre ha contrastado extra�amente con mi marcada falta de necesidad de contacto directo con otros seres y comunidades humanas".
+"El verdadero valor de un ser humano est� determinado primordialmente por la medida y el sentido en que ha alcanzado la liberaci�n del yo".
+"Una raz�n por la que la matem�tica goza de especial estima, sobre todas las dem�s ciencias, es que sus leyes son absolutamente ciertas e indiscutibles, mientras que las de otras ciencias son en cierta medida discutibles y en constante peligro de ser derrocadas por hechos reci�n descubiertos".
+"Cuando era ni�o, recib� instrucci�n tanto de la Biblia como del Talmud. Soy jud�o, pero estoy cautivado por la figura luminosa del Nazareno".
+"La idea de lograr la seguridad mediante el armamento nacional es en el estado actual de la t�cnica militar, una ilusi�n desastrosa".
+"Sostengo que el sentimiento religioso c�smico es el motivo m�s fuerte y noble para la investigaci�n cient�fica".
+"Lo realmente valioso en el concurso de la vida humana me parece no el Estado, sino el creativo, el individuo sensible, la personalidad; ella sola crea lo noble y lo sublime, mientras que la manada como tal permanece embotada en el pensamiento y embotada en sentimientos".
+"Todo lo que la raza humana ha hecho y pensado se refiere a la satisfacci�n de las necesidades profundamente sentidas y a la asimilaci�n del dolor. Uno tiene que mantener esto constantemente en mente si uno desea entender los movimientos espirituales y su desarrollo. El sentimiento y el anhelo son la fuerza motriz detr�s de todos los esfuerzos humanos y la creaci�n humana, en un aspecto exaltado que estos �ltimos puedan presentarnos".
+"Estoy convencido de que s�lo hay una forma de eliminar estos graves males, a saber, mediante el establecimiento de una econom�a socialista, acompa�ada de un sistema educativo orientado hacia objetivos sociales".
+"Por lo tanto, la ciencia se ha encargado de socavar la moral, pero la acusaci�n es injusta. La conducta �tica de un hombre debe basarse eficazmente en la simpat�a, la educaci�n y los lazos y necesidades sociales; ninguna base religiosa es necesaria. De hecho, el hombre estar�a mal si tuviera que ser frenado por el temor al castigo y las esperanzas de recompensa despu�s de la muerte".
+"Para el esfuerzo cient�fico es un todo natural cuyas partes se apoyan mutuamente de una manera que sin duda, nadie puede anticipar".
+"Incluso en las ocasiones m�s solemnes me fui sin usar calcetines y escond� esa falta de civilizaci�n en botas altas".
+"El estado de �nimo que permite al hombre hacer una obra es similar al del adorador religioso o del amante; el esfuerzo diario proviene de una intenci�n o programa intencionado, pero directamente del coraz�n".
+"El sentimiento religioso del cient�fico adopta la forma de un asombro extasiado ante la armon�a de la ley natura que revela una inteligencia de tal superioridad que, comparada con ella, todo pensamiento sistem�tico y actuaci�n de los seres humanos es una reflexi�n absolutamente insignificante".
