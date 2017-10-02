@@ -59,7 +59,17 @@ The kinematic model can predict the state on the next time step by taking into a
      v​t + 1 ​​= v​t ​​+ a​t ​​∗ dt
 ```
 
+Where Lf measures the distance between the front of the vehicle and its center of gravity. The parameter was provided by Udacity.
 
+Errors: cross track error (cte) and orientation error (eψ) were used to build the cost function for the MPC. They could be updated on a new time step using the following equations:
+
+```sh
+     cte​t + 1 ​​= cte​t ​​+ v​t ​​∗ sin(eψ​t​​) ∗ dt
+
+     eψ​t + 1 ​​= eψ​t ​​+ vt/​L​f ​​​​∗ δ​t ​​∗ dt
+```
+
+# Timestep Length and Elapsed Duration (N & dt)
 While the PID controller is easy to implement, but it is not so easy to tune.
 
 ![Final score][image1]
