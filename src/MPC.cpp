@@ -21,7 +21,7 @@ double dt = 0.1; //0
 // This is the length from front to CoG that has a similar radius.
 const double Lf = 2.67;
 
-double ref_v = 70;
+double ref_v = 70; //MPH
 size_t x_ini = 0;
 size_t y_ini = x_ini + N;
 size_t psi_ini = y_ini + N;
@@ -50,21 +50,21 @@ class FG_eval {
         
         // Reference State Cost
         for (i = 0; i < N; i++) {
-            fg[0] += 3000 * CppAD::pow(vars[cte_ini + i], 2);
-            fg[0] += 3000 * CppAD::pow(vars[epsi_ini + i], 2);
+            fg[0] += CppAD::pow(vars[cte_ini + i], 2) * 3000;
+            fg[0] += CppAD::pow(vars[epsi_ini + i], 2) * 3000;
             fg[0] += CppAD::pow(vars[v_ini + i] - ref_v, 2);
         }
         
         for (i = 0; i < N - 1; i++) {
-            fg[0] += 5 * CppAD::pow(vars[delta_ini + i], 2);
-            fg[0] += 5 * CppAD::pow(vars[a_ini + i], 2);
+            fg[0] += CppAD::pow(vars[delta_ini + i], 2) * 5;
+            fg[0] += CppAD::pow(vars[a_ini + i], 2) * 5;
             // Try adding penalty for speed + steer
-            fg[0] += 700 * CppAD::pow(vars[delta_ini + i] * vars[v_ini + i], 2);
+            fg[0] += CppAD::pow(vars[delta_ini + i] * vars[v_ini + i], 2) * 700;
         }
         
         for (i = 0; i < N - 2; i++) {
-            fg[0] += 200 * CppAD::pow(vars[delta_ini + i + 1] - vars[delta_ini + i], 2);
-            fg[0] += 10 * CppAD::pow(vars[a_ini + i + 1] - vars[a_ini + i], 2);
+            fg[0] += CppAD::pow(vars[delta_ini + i + 1] - vars[delta_ini + i], 2) * 200;
+            fg[0] += CppAD::pow(vars[a_ini + i + 1] - vars[a_ini + i], 2) * 10;
         }
         
         // Initial constraints
