@@ -41,9 +41,24 @@ The summary of the files and folders int repo is provided in the table below:
 
 # The Model
 
-Generally speaking, it requires to set Kd and Ki to 0 and gradually increase Kp before the car runs with stable and consistent oscillations. This value of Kp and the oscillation period can be used to calculate optimal pid controller parameters by the method. Parameters was able to drive car around the track but with a lot of wobbling, that is why parameters were further tuned manually after several rounds of trial and error.
+A simple Kinematic model (ignores tire forces, gravity, mass, etc) was used for the Controller. It's essential to know parameters of the vehicle (such as law of response on the throttle, geometry of the car, drag model, tires properties, etc) to construct a reasonable dynamic model but such parameters are not derectly accessible from provided materials for the project. Position (x,y), heading (ψ) and velocity (v) form the vehicle state vector:
 
-The same process was applied for different speed, so different PID parameters were found for different speed. The results were linearized in order to make the parameters automatically tune with the car speed variation.
+State: [x, y, ψ, v]
+
+There are two actuators. Stearing angle (δ) is the first one, it should be in range [-25, 25] deg. For simplicity the throttle and brake represented as a singular actuator (a), with negative values signifying braking and positive values signifying acceleration. It should be in range [-1, 1]. Actuators: [δ, a]
+
+The kinematic model can predict the state on the next time step by taking into account the current state and actuators as follows:
+
+```sh
+     x​t + 1 ​​= x​t ​​+ v​t ​​∗ cos(ψ​t​​) ∗ dt
+
+     y​t + 1 ​​= y​t ​​+ v​t ​​∗ sin(ψ​t​​) ∗ dt
+
+     ψ​t + 1 ​​= ψ​t ​​+ ​v​t/L​f ​​​​​​​∗ δ​t ​​∗ dt
+
+     v​t + 1 ​​= v​t ​​+ a​t ​​∗ dt
+```
+
 
 While the PID controller is easy to implement, but it is not so easy to tune.
 
