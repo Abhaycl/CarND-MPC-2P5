@@ -25,10 +25,11 @@ The summary of the files and folders int repo is provided in the table below:
 | File/Folder               | Definition                                                                                  |
 | :------------------------ | :------------------------------------------------------------------------------------------ |
 | src/json.hpp              | Various definitions.                                                                        |
-| src/MPC.cpp               | Initializes variables, updates errors, error totalizer.                                     |
+| src/MPC.cpp               | Initializes variables, calculation of different parameters, using the angle of rotation     |
+|                           | and speed.                                                                                  |
 | src/MPC.h                 | Definition of the package of mpc.                                                           |
-| src/main.cpp              | Has several functions within main(), communicates with the Term 2 Simulator receiving data  |
-|                           | measurements, calls a function to run the PID (Proportional, Integral, Derivative), these   |
+| src/main.cpp              | Has several functions within main(), communicates with the Term 2 Simulator receiving       |
+|                           | data measurements, calls a function to run the MPC (Model Predictive Control), these        |
 |                           | all handle the uWebsocketIO communication between the simulator and it's self.              |
 |                           |                                                                                             |
 | src                       | Folder where are all the source files of the project.                                       |
@@ -38,7 +39,7 @@ The summary of the files and folders int repo is provided in the table below:
 
 ---
 
-# How it was tuned
+# The Model
 
 Generally speaking, it requires to set Kd and Ki to 0 and gradually increase Kp before the car runs with stable and consistent oscillations. This value of Kp and the oscillation period can be used to calculate optimal pid controller parameters by the method. Parameters was able to drive car around the track but with a lot of wobbling, that is why parameters were further tuned manually after several rounds of trial and error.
 
