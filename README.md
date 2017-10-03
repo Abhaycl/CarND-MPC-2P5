@@ -81,6 +81,8 @@ The waypoints are preprocessed by transforming them to the vehicle's perspective
 
 The approach to dealing with latency was twofold: the original kinematic equations depend upon the actuations from the previous timestep, but with a delay of 100ms (which happens to be the timestep interval) the actuations are applied another timestep later, so the equations have been altered to account for this. Also, in addition to the cost functions suggested in the lessons (punishing CTE, epsi, difference between velocity and a reference velocity, delta, acceleration, change in delta, and change in acceleration) an additional cost penalizing the combination of velocity and delta was included and results in much more controlled cornering.
 
+
+
 ![Final score][image1]
 
 ![Final score][image2]
