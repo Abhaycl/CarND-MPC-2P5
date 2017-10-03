@@ -45,7 +45,7 @@ A simple Kinematic model (ignores tire forces, gravity, mass, etc) was used for 
 
 State: [x, y, ψ, v]
 
-There are two actuators. Stearing angle (δ) is the first one, it should be in range [-25, 25] deg. For simplicity the throttle and brake represented as a singular actuator (a), with negative values signifying braking and positive values signifying acceleration. It should be in range [-1, 1]. Actuators: [δ, a]
+There are two actuators. Stearing angle (δ) is the first one, it should be in range [-25, 25] deg. For simplicity the throttle and brake represented as a singular actuator (a), with negative values signifying braking and positive values signifying acceleration. It should be in range [-1, 1]. Actuators: [δ, a].
 
 The kinematic model can predict the state on the next time step by taking into account the current state and actuators as follows:
 
@@ -70,7 +70,16 @@ Errors: cross track error (cte) and orientation error (eψ) were used to build t
 ```
 
 #### Timestep Length and Elapsed Duration (N & dt)
-While the PID controller is easy to implement, but it is not so easy to tune.
+
+The values chosen for N and dt are 10 and 0.1, respectively. These values mean that the optimizer is considering a one-second duration in which to determine a corrective trajectory. Adjusting either N or dt (even by small amounts) often produced erratic behavior. Other values tried include 20 / 0.05, 8 / 0.125, 6 / 0.15, and many others.
+
+#### Polynomial Fitting and MPC Preprocessing
+
+The waypoints are preprocessed by transforming them to the vehicle's perspective (see main.cpp lines 108-113). This simplifies the process to fit a polynomial to the waypoints because the vehicle's x and y coordinates are now at the origin (0, 0) and the orientation angle is also zero.
+
+#### Model Predictive Control with Latency
+
+The approach to dealing with latency was twofold: the original kinematic equations depend upon the actuations from the previous timestep, but with a delay of 100ms (which happens to be the timestep interval) the actuations are applied another timestep later, so the equations have been altered to account for this. Also, in addition to the cost functions suggested in the lessons (punishing CTE, epsi, difference between velocity and a reference velocity, delta, acceleration, change in delta, and change in acceleration) an additional cost penalizing the combination of velocity and delta was included and results in much more controlled cornering.
 
 ![Final score][image1]
 
