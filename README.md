@@ -39,7 +39,7 @@ The summary of the files and folders int repo is provided in the table below:
 
 ---
 
-# The Model
+#### The Model
 
 A simple Kinematic model (ignores tire forces, gravity, mass, etc) was used for the Controller. It's essential to know parameters of the vehicle (such as law of response on the throttle, geometry of the car, drag model, tires properties, etc) to construct a reasonable dynamic model but such parameters are not derectly accessible from provided materials for the project. Position (x,y), heading (ψ) and velocity (v) form the vehicle state vector:
 
@@ -69,7 +69,7 @@ Errors: cross track error (cte) and orientation error (eψ) were used to build t
      eψ​t + 1 ​​= eψ​t ​​+ vt/​L​f ​​​​∗ δ​t ​​∗ dt
 ```
 
-# Timestep Length and Elapsed Duration (N & dt)
+#### Timestep Length and Elapsed Duration (N & dt)
 While the PID controller is easy to implement, but it is not so easy to tune.
 
 ![Final score][image1]
