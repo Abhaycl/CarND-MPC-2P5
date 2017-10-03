@@ -1,6 +1,6 @@
 # MPC Controller Project Starter Code
 
-A MPC (Model Predictive Control) the goal of this project is to drive the car around the track in Udacity-provided simulator, which communicates telemetry and track waypoint data via websocket, by sending steering and acceleration commands back to the simulator. Additionally, there's a 100 millisecond latency between actuations commands on top of the connection latency.
+MPC (Model Predictive Control) the goal of this project is to drive the car around the track in Udacity-provided simulator, which communicates telemetry and track waypoint data via websocket, by sending steering and acceleration commands back to the simulator. Additionally, there's a 100 millisecond latency between actuations commands on top of the connection latency.
 
 <!--more-->
 
